@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"DebDeepDa.Android.dll",
 		"DebDeepDa.dll",
 		"FormsViewGroup.dll",
+		"MonkeyCache.dll",
+		"MonkeyCache.FileStore.dll",
 		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

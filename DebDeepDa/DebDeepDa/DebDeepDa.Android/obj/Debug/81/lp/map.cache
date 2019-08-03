@@ -1,5 +1,7 @@
 DebDeepDa
 FormsViewGroup
+MonkeyCache
+MonkeyCache.FileStore
 Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Arch.Core.Common
