@@ -6,10 +6,15 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Welcome to RITESH MEDICAL TEST!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Test" Clicked="HOLA" 
+        <StackLayout Margin="20" HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" Orientation="Vertical" >
+            <Entry x:Name="Uname" Placeholder="Enter Username"/>
+            <Entry x:Name="Pass" Placeholder="Enter Password" />
+        </StackLayout>
+        <Button Text="Login" Clicked="LoginAsync" 
         HorizontalOptions="Center"
         VerticalOptions="CenterAndExpand" ></Button>
     </StackLayout>
