@@ -1,6 +1,6 @@
 db things
 
-1. **user** 
+1. **User** 
 ```
     id
     name
@@ -10,7 +10,7 @@ db things
     /* rest to add */
 ```
 
-2. **doctor**
+2. **Doctor**
 ```
    id
    name
@@ -21,7 +21,8 @@ db things
    /* rest to add */
 ```
 
-3. appointment details
+3. Appointment Details
+```
      doctor id
      availabaility (weekwise string of 7 bit)
      start time
@@ -29,9 +30,11 @@ db things
      visit fee
      clinic id
      slot time
-     * rest to add
+     /* rest to add */
+ ```
 
 4. Clinic
+```
      clinic id
      clinc name
      location url
@@ -41,30 +44,36 @@ db things
      city
      pincode
      multi valued doctor id list...
-     * rest to add
+     /* rest to add */
+```
 
-5. slot 
+5. Slot 
+```
     start time
     end time
     slot day
     doctor id
     booked flag
     reason detail id
-    * rest to add
-
-6. booked slots()
+    /* rest to add */
+```
+6. Booked Slots
+```
     bucket of all the generated slot ids.. it will be
     doctor id
     list of booked slots(slot ids for that doctor)
-    * rest to add
-
-7. reason details
+    /* rest to add */
+```
+7. Reason Details
+```
     major category
     special category
     comments 
-    * rest to addd
-
-8.  login table
+    /* rest to add */
+```
+8. Login table
+```
      type enum
      id
      pass
+```
